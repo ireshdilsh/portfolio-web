@@ -92,7 +92,7 @@
    margin-top: -10px;
  }
 
- .colur-ball-1,.colur-ball-2{
+ .colur-ball-1,.colur-ball-2,.colur-ball-3,.colur-ball-4,.col{
    height: 250px;
    width: 250px;
    background-color: #0078ff;
@@ -109,4 +109,65 @@
  .colur-ball-2{
    top: 500px;
    left: 1200px;
+ }
+
+ section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+  color: #333;
+ }
+
+ section .aboutme-image img{
+  height: 390px;
+  width: 500px;
+  background-size: cover;
+  overflow: hidden;
+  border-radius: 20px 0 20px 0;
+ }
+
+ section .texts{
+  margin-top: 10px;
+  margin-left: 100px;
+ }
+
+ section .texts .title p{
+  font-size: 28px;
+ }
+
+ section .texts .sub-title hr{
+  border: none; /* Remove default border */
+  height: 4px; /* Set the height (thickness) of the hr */
+  background-color: #0078ff; /* Set the color of the hr */
+  border-radius: 5px;
+ }
+
+ section .texts .sub-title p{
+  font-size: 17px;
+  margin-top: -15px;
+ }
+
+ section .aboutme-dicription p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  margin-top: 50px;
+  font-size: 15px;
+ }
+
+ section .icons i{
+  font-size: 20px;
+  padding: 0 10px;
+  margin-left: -10px;
+ }
+
+ .colur-ball-3{
+  left: 50px;
+ }
+
+ .colur-ball-4{
+  left: 1200px;
+  top: 1850px;
  }
