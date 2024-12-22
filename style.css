@@ -160,7 +160,7 @@
  section .icons i{
   font-size: 20px;
   padding: 0 10px;
-  margin-left: -10px;
+  margin-left: -12px;
  }
 
  .colur-ball-3{
@@ -170,4 +170,8 @@
  .colur-ball-4{
   left: 1200px;
   top: 1850px;
+ }
+
+ #skills{
+  margin-top: 120px;
  }
