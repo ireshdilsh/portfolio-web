@@ -55,4 +55,58 @@
  nav .links a:hover::before{
    transform: scaleX(1);
  }
- 
+
+ .main{
+   margin-top: 50px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .main .title p {
+   font-size: 28px;
+   color: #333;
+ }
+
+ .main .title p span{
+   color: #0078ff;
+   font-size: 28px;
+ }
+
+ .main .typing-text p{
+   font-size: 46px;
+   color: #333;
+   margin-top: -15px;
+ }
+
+ .main .typing-text p span{
+   font-size: 46px;
+   color: #0078ff;
+ }
+
+ .main .discription p{
+   text-align: center;
+   font-size: 14px;
+   color: #333;
+   margin-top: -10px;
+ }
+
+ .colur-ball-1,.colur-ball-2{
+   height: 250px;
+   width: 250px;
+   background-color: #0078ff;
+   border-radius: 360px;
+   filter: blur(250px);
+   position: absolute;
+ }
+
+ .colur-ball-1{
+   top: 50px;
+   left: 50px;
+ }
+
+ .colur-ball-2{
+   top: 500px;
+   left: 1200px;
+ }
