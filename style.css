@@ -92,7 +92,8 @@
    margin-top: -10px;
  }
 
- .colur-ball-1,.colur-ball-2,.colur-ball-3,.colur-ball-4,.col{
+ .colur-ball-1,.colur-ball-2,.colur-ball-3,.colur-ball-4,
+ .colur-ball-5,.colur-ball-6{
    height: 250px;
    width: 250px;
    background-color: #0078ff;
@@ -170,6 +171,15 @@
  .colur-ball-4{
   left: 1200px;
   top: 1850px;
+ }
+
+ .colur-ball-5{
+  left: 50px;
+  top: 2700px;
+ }
+ .colur-ball-6{
+  left: 1100px;
+  top: 3500px;
  }
 
  #skillBox {
@@ -252,4 +262,58 @@
  #skillBox .cards .fullStack-card .icons i{
   font-size: 20px;
  }
- 
+
+ #projectScetion{
+  margin-top: 120px;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ }
+
+ #projectScetion .texts{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ }
+
+  #projectScetion .texts .title p{
+    font-size: 28px;
+  }
+
+  #projectScetion .texts .sub-title p{
+    font-size: 17px;
+    margin-top: -15px;
+  }
+
+  #projectScetion .texts .sub-title hr{
+    border: none;
+    height: 4px; 
+    background-color: #0078ff; 
+    border-radius: 5px;
+  }
+
+  #projectScetion .texts .discription p{
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: justify;
+  }
+
+  #projectScetion .project-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 30px;
+  }
+
+  #projectScetion .project-cards .card-1 .card .card-body .card-text,
+  #projectScetion .project-cards .card-2 .card .card-body .card-text,
+  #projectScetion .project-cards .card-3 .card .card-body .card-text,
+  #projectScetion .project-cards .card-4 .card .card-body .card-text{
+    
+    font-size: 13px;
+  }
