@@ -378,6 +378,14 @@
    transition: 0.4s;
  }
 
+ #blog-section .blogs-body .card-1:hover,
+ #blog-section .blogs-body .card-2:hover,
+ #blog-section .blogs-body .card-3:hover,
+ #blog-section .blogs-body .card-4:hover{
+   cursor: pointer;
+   transform: translateY(-10px);
+ }
+
  #blog-section .blogs-body .card-1 .card-title p,
  #blog-section .blogs-body .card-2 .card-title p,
  #blog-section .blogs-body .card-3 .card-title p,
