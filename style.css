@@ -316,3 +316,91 @@
   #projectScetion .project-cards .card-4 .card .card-body .card-text{
     font-size: 13px;
   }
+
+  #blog-section{
+    margin-top: 120px;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  }
+
+  #blog-section .texts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
+
+  #blog-section .texts .title p{
+    font-size: 28px;
+  }
+
+  #blog-section .texts .sub-title p{
+    font-size: 17px;
+    margin-top: -15px;
+  }
+
+  #blog-section .texts .sub-title hr{
+    border: none;
+    height: 4px; 
+    background-color: #0078ff; 
+    border-radius: 5px;
+   
+  }
+
+  #blog-section .texts .discription p{
+    font-size: 15px;
+    margin-top: 25px;
+    text-align: justify;
+  }
+
+  #blog-section .blogs-body{
+    margin-top: 10px;
+  }
+
+  #blog-section .blogs-body .card-1,
+  #blog-section .blogs-body .card-2,
+  #blog-section .blogs-body .card-3,
+  #blog-section .blogs-body .card-4{
+    margin: 30px 40px;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: 0.4s;
+  }
+
+  #blog-section .blogs-body .card-1 .card-title p,
+  #blog-section .blogs-body .card-2 .card-title p,
+  #blog-section .blogs-body .card-3 .card-title p,
+  #blog-section .blogs-body .card-4 .card-title p{
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  #blog-section .blogs-body .card-1 .card-date p,
+  #blog-section .blogs-body .card-2 .card-date p,
+  #blog-section .blogs-body .card-3 .card-date p,
+  #blog-section .blogs-body .card-4 .card-date p{
+    font-size: 14px;
+    margin-top: -10px;
+  }
+
+  #blog-section .blogs-body .card-1 .card-disc p,
+  #blog-section .blogs-body .card-2 .card-disc p,
+  #blog-section .blogs-body .card-3 .card-disc p,
+  #blog-section .blogs-body .card-4 .card-disc p{
+    margin-top: 30px;
+    font-size: 13px;
+  }
+
+  #blog-section .blogs-body .card-1 .card-date hr,
+  #blog-section .blogs-body .card-2 .card-date hr,
+  #blog-section .blogs-body .card-3 .card-date hr,
+  #blog-section .blogs-body .card-4 .card-date hr{
+    border: none;
+    height: 4px; 
+    background-color: #0078ff; 
+    border-radius: 5px;
+  }
