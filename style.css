@@ -440,7 +440,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: -170px;
+  margin-top: -150px;
 }
 
 #contact-section .left-side .title p{
@@ -460,7 +460,7 @@
 }
 
 #contact-section .left-side .discription p{
-  font-size: 14px;
+  font-size: 15px;
   margin-top: 20px;
   text-align: justify;
 }
