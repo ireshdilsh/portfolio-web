@@ -202,6 +202,7 @@
    justify-content: center;
    align-items: center;
    flex-direction: column;
+   color: #333;
  }
 
  #skillBox .texts {
@@ -213,7 +214,6 @@
 
  #skillBox .texts .title p {
    font-size: 28px;
-   color: #333;
  }
 
  #skillBox .texts .sub-title p {
