@@ -419,3 +419,72 @@
    background-color: #0078ff;
    border-radius: 5px;
  }
+
+ #contact-section {
+  margin-top: 120px;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+}
+
+#contact-section .left-side{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: -300px;
+}
+
+#contact-section .left-side .title p{
+  font-size: 28px;
+}
+
+#contact-section .left-side .sub-title p{
+  font-size: 17px;
+  margin-top: -15px;
+}
+
+#contact-section .left-side .sub-title hr{
+  border: none;
+  height: 4px;
+  background-color: #0078ff;
+  border-radius: 5px;
+}
+
+#contact-section .left-side .discription p{
+  font-size: 14px;
+  margin-top: 20px;
+  text-align: justify;
+}
+
+#contact-section .right-side{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#contact-section .right-side .contact-form{
+  width: 450px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 20px;
+  padding:  40px;
+}
+
+#contact-section .right-side .contact-form .title p{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#contact-section .right-side .contact-form .name-field .mb-3 label,
+#contact-section .right-side .contact-form .email-field .mb-3 label,
+#contact-section .right-side .contact-form .subject-field .mb-3 label{
+  font-size: 14px;
+}
+
+#contact-section .right-side .contact-form .name-field .mb-3 #nameHelp,
+#contact-section .right-side .contact-form .email-field .mb-3 #emailHelp{
+  font-size: 12px;
+}
