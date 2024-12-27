@@ -102,3 +102,8 @@
   #home .discription p{
     text-align: center;
   }
+
+  #home .logo img{
+    height: 500px;
+    width: 500px;
+  }
