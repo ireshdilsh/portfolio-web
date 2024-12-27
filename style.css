@@ -65,7 +65,6 @@
   }
 
   /* end of navbar css */
-
  
   #home{
     display: flex;
@@ -81,7 +80,7 @@
   }
 
   #home .title p span{
-    font-size: 28px;
+    font-size: 30px;
     color: #007BFF;
   }
 
@@ -106,4 +105,47 @@
   #home .logo img{
     height: 500px;
     width: 500px;
+  }
+
+  /* end of #home css */
+
+  #aboutme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    gap: 100px;
+  }
+
+  #aboutme .left-side img{
+    height: 450px;
+    width: 600px;
+    overflow: hidden;
+    background-size: cover;
+    border-radius: 20px 0 20px 0;
+    margin-top: 65px;
+  }
+
+  #aboutme .right-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    gap: 20px;
+  }
+
+  #aboutme .right-side .title p{
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  #aboutme .right-side .title hr{
+    height: 5px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 30px;
+  }
+
+  #aboutme .right-side .discription p{
+    text-align: justify;
   }
