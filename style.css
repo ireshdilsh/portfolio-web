@@ -13,6 +13,8 @@
 
  body {
    margin: 20px 150px;
+   background-color: #000;
+   color: #fff;
  }
 
  nav {
@@ -29,9 +31,9 @@
  nav .links a {
    text-decoration: none;
    margin: 0 10px;
-   color: #333;
    font-size: 15px;
    position: relative;
+   color: #fff;
  }
 
  nav .hire-btn button {
@@ -45,7 +47,7 @@
    left: 0;
    bottom: -10px;
    width: 100%;
-   background-color: #333;
+   background-color: #fff;
    height: 3px;
    border-radius: 50px;
    transform: scaleX(0);
@@ -66,7 +68,6 @@
 
  .main .title p {
    font-size: 28px;
-   color: #333;
  }
 
  .main .title p span {
@@ -76,7 +77,6 @@
 
  .main .typing-text p {
    font-size: 46px;
-   color: #333;
    margin-top: -15px;
  }
 
@@ -88,7 +88,6 @@
  .main .discription p {
    text-align: center;
    font-size: 14px;
-   color: #333;
    margin-top: -10px;
  }
 
@@ -122,7 +121,6 @@
    justify-content: center;
    align-items: center;
    margin-top: 120px;
-   color: #333;
  }
 
  #aboutMe .aboutme-image img {
@@ -199,7 +197,6 @@
    justify-content: center;
    align-items: center;
    flex-direction: column;
-   color: #333;
  }
 
  #skillBox .texts {
@@ -258,13 +255,11 @@
  #skillBox .cards .back-card .title p,
  #skillBox .cards .fullStack-card .title p {
    font-size: 20px;
-   color: #333;
  }
 
  #skillBox .cards .front-card .discription p,
  #skillBox .cards .back-card .discription p #skillBox .cards .fullStack-card .discription p {
    font-size: 15px;
-   color: #333;
  }
 
  #skillBox .cards .back-card .icons i,
@@ -275,7 +270,6 @@
 
  #projectScetion {
    margin-top: 120px;
-   color: #333;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -329,7 +323,6 @@
 
  #blog-section {
    margin-top: 120px;
-   color: #333;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -425,7 +418,6 @@
 
  #contact-section {
   margin-top: 120px;
-  color: #333;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -495,13 +487,11 @@
 #contact-section .right-side .contact-form .name-field .mb-3 #exampleInputName,
 #contact-section .right-side .contact-form .email-field .mb-3 #exampleInputEmail{
   font-size: 14px;
-  color: #333;
   height: 45px;
 }
 
 #contact-section .right-side .contact-form .subject-field .mb-3 #exampleFormControlTextarea{
   font-size: 14px;
-  color: #333;
   height: 120px;
 }
 
