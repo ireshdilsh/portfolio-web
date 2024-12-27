@@ -6,7 +6,6 @@
    margin: 0;
    box-sizing: border-box;
    font-family: "Poppins", serif;
-   font-weight: 500;
    font-style: normal;
    font-size: 14px;
  }
@@ -62,6 +61,7 @@
   nav .hire-btn button{
     width: 120px;
     height: 45px;
+    font-weight: 500;
   }
 
   /* end of navbar css */
