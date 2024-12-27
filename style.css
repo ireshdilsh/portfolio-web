@@ -144,11 +144,8 @@
 
  #aboutMe .texts .sub-title hr {
    border: none;
-   /* Remove default border */
    height: 4px;
-   /* Set the height (thickness) of the hr */
    background-color: #0078ff;
-   /* Set the color of the hr */
    border-radius: 5px;
  }
 
