@@ -67,3 +67,38 @@
   /* end of navbar css */
 
  
+  #home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+  }
+
+  #home .title p{
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  #home .title p span{
+    font-size: 28px;
+    color: #007BFF;
+  }
+
+  #home .typing-texts{
+    margin-top: -22px;
+  }
+
+  #home .typing-texts p{
+    font-size: 48px;
+    font-weight: 500;
+  }
+
+  #home .typing-texts p span{
+    color: #007BFF;
+    font-size: 48px;
+  }
+
+  #home .discription p{
+    text-align: center;
+  }
