@@ -71,46 +71,4 @@
    font-weight: 500;
  }
 
- #home{
-  margin-top: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
- }
-
- #home .home-content #span{
-  font-size: 25px;
-  text-decoration: underline;
-  font-weight: 700;
- }
-
- #home .home-content h1 .typeText{
-  font-size: 34px;
-  color: #0d6efd;
- }
-
- #home .home-content a {
-  padding: 10px 30px;
-  font-weight: 500;
-  margin-top: 10px;
- }
-
- #home .home-content .icons img{
-  height: 30px;
-  margin-top: 20px;
-  margin-left: -5px;
- }
- .opacity-text{
-  position: absolute;
-  left: 90px;
-  top: 320px;
- }
-
- .opacity-text p{
-  color: #0d6efd;
-  font-weight: 700;
-  opacity: .02;
-  font-size: 140px;
- }
-
  
