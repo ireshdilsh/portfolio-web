@@ -109,9 +109,14 @@
    color: #0d6efd;
  }
 
+ #home .left-side .discription p{
+  margin-top: -10px;
+ }
+
  #home .left-side .about-btn button {
    padding: 10px 30px;
    font-weight: 500;
+   margin-top: 15px;
  }
 
  #home .left-side .opacity-text p {
