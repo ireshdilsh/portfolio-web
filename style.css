@@ -7,145 +7,79 @@
    box-sizing: border-box;
    font-family: "Poppins", serif;
    font-style: normal;
-   font-size: 14px;
+   font-size: 13px;
+   color: #333;
  }
+
+  /* 
+  primary coulur : #333
+  secondry colour : #0d6efd
+  */
 
  body {
-   margin: 20px 150px;
-   background-color: #000;
-   color: #fff;
+   margin: 0px 100px;
+   background-color: #fff;
  }
 
- nav{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 30px;
+ nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 20px;
  }
 
- nav .logo img{
-  height: 70px;
-  width: 70px;
+ nav .logo p{
+  font-size: 28px;
+  font-weight: 700;
+  text-decoration: underline;
+  color: #333;
  }
 
- nav .links{
+ nav .links {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 25px;
+ }
+
+ nav .links a {
+   text-decoration: none;
+   color: #333;
+   position: relative;
+   font-weight: 500;
+ }
+
+ nav .links a::after {
+   content: '';
+   position: absolute;
+   width: 100%;
+   height: 2px;
+   border-radius: 50px;
+   background-color: #333;
+   left: 0;
+   top: 25px;
+   transform: scaleX(0);
+   transition: transform 0.3s;
+ }
+
+ nav .links a:hover::after {
+   transform: scaleX(1);
+ }
+
+ nav .hire-btn button {
+   padding: 10px 20px;
+   font-weight: 500;
+ }
+
+ #home{
+  margin-top: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
  }
 
- nav .links a{
-  text-decoration: none;
-  color: #fff;
-  position: relative;
+ #home .home-content #span{
+  font-size: 28px;
+  text-decoration: underline;
+  font-weight: 700;
  }
-
- nav .links a::before{
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 3px;
-  border-radius: 30px;
-  background-color: #fff;
-  top: 25px;
-  left: 0;
-  transform: scaleX(0);
-  transition: transform 0.3s;
- }
-
-  nav .links a:hover::before{
-    transform: scaleX(1);
-  }
-
-  nav .hire-btn button{
-    width: 120px;
-    height: 45px;
-    font-weight: 500;
-  }
-
-  /* end of navbar css */
- 
-  #home{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 80px;
-  }
-
-  #home .title p{
-    font-size: 30px;
-    font-weight: 500;
-  }
-
-  #home .title p span{
-    font-size: 30px;
-    color: #007BFF;
-  }
-
-  #home .typing-texts{
-    margin-top: -22px;
-  }
-
-  #home .typing-texts p{
-    font-size: 48px;
-    font-weight: 500;
-  }
-
-  #home .typing-texts p span{
-    color: #007BFF;
-    font-size: 48px;
-  }
-
-  #home .discription p{
-    text-align: center;
-  }
-
-  #home .logo img{
-    height: 500px;
-    width: 500px;
-  }
-
-  /* end of #home css */
-
-  #aboutme{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 80px;
-    gap: 100px;
-  }
-
-  #aboutme .left-side img{
-    height: 450px;
-    width: 600px;
-    overflow: hidden;
-    background-size: cover;
-    border-radius: 20px 0 20px 0;
-    margin-top: 65px;
-  }
-
-  #aboutme .right-side{
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: left;
-    gap: 20px;
-  }
-
-  #aboutme .right-side .title p{
-    font-size: 30px;
-    font-weight: 500;
-  }
-
-  #aboutme .right-side .title hr{
-    height: 5px;
-    background-color: #007BFF;
-    border: none;
-    border-radius: 30px;
-  }
-
-  #aboutme .right-side .discription p{
-    text-align: justify;
-  }
