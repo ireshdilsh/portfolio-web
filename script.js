@@ -5,3 +5,5 @@ var typed = new Typed(".typeText",{
     backSpeed :150,
     loop :true
 })
+
+// create this 
