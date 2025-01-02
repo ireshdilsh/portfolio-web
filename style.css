@@ -14,6 +14,7 @@
  /* 
   primary coulur : #333
   secondry colour : #0d6efd
+  third colour(section bg-colour) : #eff6ff2e
   */
 
  body {
@@ -126,13 +127,73 @@
    color: #0d6efd;
    position: absolute;
    left: 95px;
-   top: 450px;
+   top: 520px;
    pointer-events: none;
  }
 
  #home .right-side img {
-   width: 400px;
-   height: 400px;
-   position: static;
-
+   width: 500px;
+   height: 500px;
  }
+
+  #aboutme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+    gap: 50px;
+    background-color: #eff6ff2e;
+    width: 100%;
+    padding: 50px 65px;
+    border-radius: 15px;
+  }
+
+  #aboutme .title p{
+    font-size: 35px;
+    font-weight: 500;
+  }
+
+  #aboutme .about-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    flex-direction: row;
+  }
+
+  #aboutme .about-body .left-side img {
+    width: 550px;
+    height: 350px;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 0 15px 0 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
+
+  #aboutme .about-body .right-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  #aboutme .about-body .right-side .sub-title p {
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  #aboutme .about-body .right-side .sub-title hr {
+    width: 100%;
+    height: 4px;
+    border-radius: 50px;
+    border: none;
+    border-radius: 50px;
+    background-color: #0d6efd;
+  }
+  
+  #aboutme .about-body .right-side .discription p {
+    text-align: justify;
+    font-size: 14.5px;
+  }
