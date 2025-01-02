@@ -75,8 +75,8 @@
    display: flex;
    justify-content: center;
    align-items: center;
-   gap: 150px;
-   margin-top: 80px;
+   gap: 100px;
+   margin-top: 50px;
  }
 
  #home .left-side {
@@ -126,6 +126,13 @@
    color: #0d6efd;
    position: absolute;
    left: 95px;
-   top: 310px;
+   top: 450px;
    pointer-events: none;
+ }
+
+ #home .right-side img {
+   width: 400px;
+   height: 400px;
+   position: static;
+
  }
