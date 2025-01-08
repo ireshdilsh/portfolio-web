@@ -153,6 +153,7 @@
  #home .right-side{
   background-color: #fff;
   padding: 0px 20px;
+  margin-top: -80px;
  }
 
  #home .right-side .main-box{
@@ -160,23 +161,28 @@
   width: 280px;
   border: 2px solid #6366f1;
   rotate: 45deg;
-  border-radius: 15px;
+  border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
  }
 
  #home .right-side .main-box .img-box{
-  background-color: #6366f1;
-  border-radius: 10px;
+  background-color: #6365f10c;
+  border-radius: 8px;
   height: 230px;
   width: 230px;
  }
 
- #home .left-side .opacity-text{
-    margin-top: 50px;
+ #home .right-side .main-box .img-box img{
+  width: 640px;
+  height: 400px;
+  rotate: -45deg;
+  background-size: cover;
+  position: absolute;
+  left: -200px;
+  top: -50px;
  }
-
  #home .left-side .opacity-text p{
   font-size: 110px;
   font-weight: 900;
