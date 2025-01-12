@@ -76,6 +76,17 @@
   font-weight: 800;
  }
 
+ #home .left-side .title hr{
+  position: absolute;
+  left: 370px;
+  top: 147px;
+  border: none;
+  background-color: #333;
+  height: 3px;
+  width: 2%;
+  border-radius: 50px;
+ }
+
  /* #home .left-side .title p hr{
   border: none;
   background-color: #333;
