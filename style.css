@@ -22,7 +22,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 20px 100px;
+  margin: 30px 120px;
  }
 
  nav .logo img{
@@ -41,6 +41,7 @@
   text-decoration: none;
   color: #333;
   position: relative;
+  font-weight: 400;
  }
 
  nav .links a::after{
@@ -64,7 +65,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 50px 120px;
+  margin: 70px 120px;
   background-color: #fff;
 }
 
@@ -78,8 +79,8 @@
 
  #home .left-side .title hr{
   position: absolute;
-  left: 370px;
-  top: 147px;
+  left: 365px;
+  top: 175px;
   border: none;
   background-color: #333;
   height: 3px;
@@ -141,7 +142,7 @@
 
  #home .left-side .icons i{
   color: #333;
-  font-size: 14px;
+  font-size: 15px;
  }
 
  .opacity-text{
@@ -163,7 +164,7 @@
   flex-direction: column;
   position: absolute;
   left: 975px;
-  top: 80px;
+  top: 100px;
  }
 
  .mesh .mesh-1,
@@ -181,3 +182,4 @@
     height: 215px;
     width: 218px;
  } 
+
