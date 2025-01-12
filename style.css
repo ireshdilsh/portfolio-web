@@ -87,14 +87,6 @@
   border-radius: 50px;
  }
 
- /* #home .left-side .title p hr{
-  border: none;
-  background-color: #333;
-  width: 10%;
-  height: 2px;
-  border-radius: 50px;
- } */
-
  #home .left-side .sub-title p ,#home .left-side .sub-title p span{
   font-size: 52px;
   font-weight: 600;
@@ -156,7 +148,6 @@
   position: absolute;
   left: 110px;
   top: 450px;
-  background-color: #fff;
 }
 
  .opacity-text p{

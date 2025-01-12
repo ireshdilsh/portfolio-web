@@ -31,9 +31,47 @@
       <a href="">Contact me</a>
     </div>
     <div class="hire">
-      <button type="button" style="background-color: #6366f1; height: 45px;width: 130px; padding: 10px; font-weight: 500;" class="btn btn-primary">Work With Me</button>
+      <button data-bs-toggle="modal" data-bs-target="#exampleModal" type="button" style="background-color: #6366f1; height: 45px;width: 130px; padding: 10px; font-weight: 500;" class="btn btn-primary">Work With Me</button>
     </div>
   </nav>
+
+  <!-- Modal start -->
+  
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Let's Work together.</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div style="display: flex;justify-content: center;align-items: center;" class="logo">
+            <img src="images/logo.png" alt="modal-logo" style="height: 70px;width: 70px;">
+          </div>
+          <div class="discription" style="display: flex;justify-content: center;align-items: center;margin-top: 20px;">
+            <p style="text-align: center; font-size: 11px; font-weight: 500;">Looking for a skilled software engineer?<br>Let’s bring your project to life! Fill out the form below, and I’ll get back to you soon.</p>
+          </div>
+          <div style="margin-top: 30px;" class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input style="height: 40px;" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="validationTextarea" class="form-label">Your Message</label>
+            <textarea class="form-control" style="height: 100px;" id="validationTextarea" placeholder="Write your message here..." required></textarea>
+            <div class="invalid-feedback">
+              Please enter a message in the textarea.
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" style="background-color: #6366f1; padding: 10px 20px; font-weight: 500;" class="btn btn-primary">Work With Me</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Mdal end -->
 
   <section id="home">
     <div class="left-side">
