@@ -148,7 +148,7 @@
  .opacity-text{
   position: absolute;
   left: 110px;
-  top: 450px;
+  top: 500px;
 }
 
  .opacity-text p{
@@ -181,5 +181,65 @@
     border: 1px solid #f8fafc60;
     height: 215px;
     width: 218px;
- } 
+ }
 
+ #aboutme{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     margin: 300px 120px;
+ }
+
+ #aboutme .aboutme-body{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 75px;
+     margin-top: 50px;
+ }
+
+ #aboutme .title p,#aboutme .title p span{
+     font-size: 48px;
+     font-weight: 600;
+ }
+
+ #aboutme .title p span{
+     color: #6366f1;
+ }
+
+ #aboutme .sub-title p{
+     font-size: 24px;
+     font-weight: 500;
+ }
+
+ #aboutme .sub-title hr{
+     border: none;
+     height: 5px;
+     background: #333;
+     border-radius: 50px;
+ }
+
+ #aboutme .aboutme-body .left-side img{
+     height: 350px;
+     width: 500px;
+     overflow: hidden;
+    border-radius: 8px;
+     background-size: cover;
+ }
+
+ #aboutme .aboutme-body .right-side .discription p{
+     text-align: justify;
+     font-size: 15px;
+ }
+
+ #aboutme .aboutme-body .right-side .icons {
+     display: flex;
+     justify-content: left;
+     align-items: center;
+     gap: 25px;
+ }
+
+ #aboutme .aboutme-body .right-side .icons i{
+     font-size: 18px;
+ }
