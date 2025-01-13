@@ -188,7 +188,9 @@
      justify-content: center;
      align-items: center;
      flex-direction: column;
-     margin: 300px 120px;
+     margin: 300px 0px;
+     padding: 100px 120px;
+     background-color: rgba(99, 102, 241, 0.02);
  }
 
  #aboutme .aboutme-body{
@@ -243,3 +245,104 @@
  #aboutme .aboutme-body .right-side .icons i{
      font-size: 18px;
  }
+
+ footer{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin: 50px 120px;
+ }
+
+ footer .left{
+     display: flex;
+     justify-content: left;
+     align-items: flex-start;
+     flex-direction: column;
+     gap: 15px;
+ }
+
+ footer .left .logo img{
+     height: 70px;
+     width: 70px;
+ }
+
+ footer .left .icons{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 15px;
+ }
+
+ footer .left .icons i{
+     font-size: 15px;
+ }
+
+ footer .middle{
+     display: flex;
+     justify-content: left;
+     align-items: flex-start;
+    flex-direction: column;
+ }
+
+ footer .middle .title p{
+     font-size: 24px;
+     font-weight: 600;
+ }
+
+ footer .middle .links {
+     display: flex;
+     justify-content: left;
+     align-items: flex-start;
+     flex-direction: column;
+     margin-top: 25px;
+     gap: 20px;
+ }
+
+ footer .middle .links a{
+     position: relative;
+     text-decoration: none;
+     color: #333333;
+     font-weight: 400;
+ }
+
+ footer .middle .links a::after{
+     content: '';
+     height: 1px;
+     width: 100%;
+     background-color: #333;
+     border-radius: 50px;
+     position: absolute;
+     left: 0;
+     top: 25px;
+     transform: scaleX(0);
+     transition: transform 0.4s;
+ }
+
+ footer .middle .links a:hover::after{
+     transform: scaleX(1);
+ }
+
+ footer .right{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     /*border: 2px solid #f8fafc60;*/
+     border: 2px solid #fafafa;
+     border-radius: 15px;
+     padding: 40px;
+     gap: 25px;
+ }
+
+ .footer-last {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 15px;
+ }
+
+ .footer-last p{
+     font-size: 12px;
+     font-weight: 500;
+ }
+
