@@ -247,9 +247,60 @@
  }
 
 
+ #skills{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 150px;
+     flex-direction: column;
+     padding: 0px 120px;
+ }
 
+#skills .title p{
+    font-size: 48px;
+    font-weight: 600;
+}
+
+#skills .sub-title p, #skills .sub-title p span{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+ #skills .sub-title p span{
+     color: #6366f1;
+ }
+
+ #skills .sub-title hr{
+     border: none;
+     height: 5px;
+     background: #333;
+     border-radius: 50px;
+ }
+
+ #skills .discripiton{
+     margin-top: 25px;
+ }
+ #skills .discripiton p{
+     font-size: 13.5px;
+     text-align: center;
+ }
  /* start footer syles */
 
+ #skills .progres-bars{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     flex-direction: column;
+ }
+
+ #skills .progres-bars .set1,
+ #skills .progres-bars .set2,
+ #skills .progres-bars .set3{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap: 200px;
+ }
  footer{
      display: flex;
      justify-content: space-between;
