@@ -218,7 +218,7 @@
  #aboutme .sub-title hr{
      border: none;
      height: 5px;
-     background: #333;
+     background: #6366f1;
      border-radius: 50px;
  }
 
@@ -273,7 +273,7 @@
  #skills .sub-title hr{
      border: none;
      height: 5px;
-     background: #333;
+     background: #6366f1;
      border-radius: 50px;
  }
 
@@ -291,6 +291,8 @@
      justify-content: space-between;
      align-items: center;
      flex-direction: column;
+     gap: 50px;
+     margin-top: 50px;
  }
 
  #skills .progres-bars .set1,
@@ -299,7 +301,66 @@
      display: flex;
      justify-content: space-between;
      align-items: center;
-     gap: 200px;
+     gap: 50px;
+ }
+
+ #skills .progres-bars .set1 .set-1,
+ #skills .progres-bars .set1 .set-2,
+ #skills .progres-bars .set2 .set-3,
+ #skills .progres-bars .set2 .set-4,
+ #skills .progres-bars .set3 .set-5,
+ #skills .progres-bars .set3 .set-6{
+     display: flex;
+     justify-content: left;
+     align-items: flex-start;
+     flex-direction: column;
+     border: 2px solid #fafafa;
+     padding: 50px;
+     border-radius: 5px;
+ }
+
+
+ #skills .progres-bars .set1 .set-1:hover,
+ #skills .progres-bars .set1 .set-2:hover,
+ #skills .progres-bars .set2 .set-3:hover,
+ #skills .progres-bars .set2 .set-4:hover,
+ #skills .progres-bars .set3 .set-5:hover,
+ #skills .progres-bars .set3 .set-6:hover{
+     transform: scale(1.05);
+     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+     transition: transform 0.5s;
+     cursor: pointer;
+ }
+
+ #skills .progres-bars .set1 .set-1 .title p,
+ #skills .progres-bars .set1 .set-2 .title p,
+ #skills .progres-bars .set2 .set-3 .title p,
+ #skills .progres-bars .set2 .set-4 .title p,
+ #skills .progres-bars .set3 .set-5 .title p,
+ #skills .progres-bars .set3 .set-6 .title p{
+    margin-top: 15px;
+     font-size: 18px;
+     font-weight: 500;
+ }
+
+ #skills .progres-bars .set1 .set-1 .discription p,
+ #skills .progres-bars .set1 .set-2 .discription p,
+ #skills .progres-bars .set2 .set-3 .discription p,
+ #skills .progres-bars .set2 .set-4 .discription p,
+ #skills .progres-bars .set3 .set-5 .discription p,
+ #skills .progres-bars .set3 .set-6 .discription p{
+     font-size: 13px;
+     text-align: justify;
+     margin-top: 30px;
+ }
+
+ #skills .progres-bars .set1 .set-1 .title i,
+ #skills .progres-bars .set1 .set-2 .title i,
+ #skills .progres-bars .set2 .set-3 .title i,
+ #skills .progres-bars .set2 .set-4 .title i,
+ #skills .progres-bars .set3 .set-5 .title i,
+ #skills .progres-bars .set3 .set-6 .title i{
+     font-size: 30px;
  }
  footer{
      display: flex;
