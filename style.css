@@ -246,6 +246,10 @@
      font-size: 18px;
  }
 
+
+
+ /* start footer syles */
+
  footer{
      display: flex;
      justify-content: space-between;
