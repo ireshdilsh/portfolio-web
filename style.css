@@ -404,6 +404,31 @@
     text-align: center;
  }
 
+ #projects .projects-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+ }
+
+ #projects .projects-body .card-1:hover,
+ #projects .projects-body .card-2:hover,
+ #projects .projects-body .card-3:hover,
+ #projects .projects-body .card-4:hover{
+    transform: scale(1.05);
+    transition: transform 0.4s;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+ }
+
+ #projects .projects-body .card-1 a span i,
+ #projects .projects-body .card-2 a span i,
+ #projects .projects-body .card-3 a span i,
+ #projects .projects-body .card-4 a span i{
+    color: #fff;
+    margin-left: 8px;
+ }
+
  #contactme{
     margin-top: 150px;
  }
