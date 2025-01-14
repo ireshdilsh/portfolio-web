@@ -417,7 +417,7 @@
  #projects .projects-body .card-3:hover,
  #projects .projects-body .card-4:hover{
     transform: scale(1.05);
-    transition: transform 0.4s;
+    transition: transform 0.6s;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
  }
 
