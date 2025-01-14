@@ -403,8 +403,23 @@
     font-size: 13.5px;
     text-align: center;
  }
+
  #contactme{
     margin-top: 150px;
  }
 
+ .footer-sentence{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+ }
 
+ .footer-sentence p,.footer-sentence p span{
+    font-size: 12px;
+    font-weight: 500;
+ }
+
+ .footer-sentence p span{
+    font-weight: 700;
+ }
