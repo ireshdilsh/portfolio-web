@@ -478,11 +478,56 @@
 
 #contactme .contact-body{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 200px;
+}
+
+#contactme .contact-body .left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin-top: 50px;
- 
+    padding: 50px;
+    gap: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 8px;
+}
+
+
+
+#contactme .contact-body .left .email .email-labal-and-icon,
+#contactme .contact-body .left .phone-no .icon-and-labl,
+#contactme .contact-body .left .address .icon-and-address{
+    display: flex;
+    gap: 10px;
+}
+
+#contactme .contact-body .left .email .email-labal-and-icon i,
+#contactme .contact-body .left .phone-no .icon-and-labl i,
+#contactme .contact-body .left .address .icon-and-address i{
+    font-size: 14px;
+}
+
+#contactme .contact-body .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    padding: 50px;
+    gap: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 8px;
+}
+
+#contactme .contact-body .right .title hr{
+    border: none;
+    height: 5px;
+    background-color: #333;
+    width: 100%;
+    border-radius: 50px;
 }
 
 /* footer */
@@ -490,7 +535,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px 0px;
+    margin: 150px 0px 10px;
  }
 
  .footer-sentence p,.footer-sentence p span{
