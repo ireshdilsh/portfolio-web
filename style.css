@@ -445,7 +445,7 @@
  #projects .projects-body .card-4 .card:hover{
     border: none;
     transform: scale(1.05);
-    transition: transform 0.6s;
+    transition: transform 0.8s;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
  }
 
@@ -459,8 +459,33 @@
 
  #contactme{
     margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 120px;
  }
 
+ #contactme .title p{
+    font-size: 48px;
+    font-weight: 600;
+ }
+
+ #contactme .discripiton p{
+    font-size: 13.5px;
+    text-align: center;
+}
+
+#contactme .contact-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+ 
+}
+
+/* footer */
  .footer-sentence{
     display: flex;
     justify-content: center;
