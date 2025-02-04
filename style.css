@@ -13,11 +13,11 @@
      box-sizing: border-box;
      font-family: "Poppins", serif;
      font-style: normal;
-     color: #fcfcfc;
      font-size: 13px;
      font-weight: 400;
  }
 
  body{
-     background-color: #212529;
+    background-color: #fcfcfc;
+    color: #333;
  }
