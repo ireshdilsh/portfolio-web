@@ -73,6 +73,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 140px;
+    margin-top: 50px;
  }
 
  #portfolio .left-side .title h5{
@@ -90,8 +91,8 @@
     background-color: #333;
     border-radius: 50px;
     position: absolute;
-    left: 363px;
-    top: 145px;
+    left: 365px;
+    top: 195px;
  }
 
  #portfolio .left-side .sub-title p,
@@ -106,10 +107,6 @@
 
  #portfolio .left-side .discription p{
     font-size: 14px;
- }
-
- #portfolio .left-side .btns{
-    /* gahanna thiyeno */
  }
 
  #portfolio .right-side{
@@ -178,3 +175,59 @@
  #portfolio .left-side .icons i{
    font-size: 15px;
  }
+
+ #aboutme{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 120px;
+   padding: 80px 140px;
+   flex-direction: column;
+   background-color: #6365f10a;
+ }
+
+ #aboutme .title h3,
+ #aboutme .title h3 span{
+   font-weight: 600;
+ }
+
+ #aboutme .title h3 span{
+   color: #6366f1;
+ }
+
+ #aboutme .body-aboutme{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 50px;
+   gap: 80px;
+ }
+
+ #aboutme .body-aboutme .left-side img{
+   height: 350px;
+   overflow: hidden;
+   border-radius: 10px;
+ }
+
+ #aboutme .body-aboutme .right-side{
+   display: flex;
+   justify-content: flex-start;
+   align-items: left;
+   flex-direction: column;
+}
+
+#aboutme .body-aboutme .right-side p{
+   text-align: justify;
+   font-size: 14px;
+}
+
+#aboutme .body-aboutme .icons{
+   display: flex;
+   justify-content: flex-start;
+   align-items: left;
+   gap: 15px;
+}
+
+#aboutme .body-aboutme .icons i{
+   font-size: 16px;
+}
