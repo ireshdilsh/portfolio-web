@@ -90,7 +90,7 @@
     background-color: #333;
     border-radius: 50px;
     position: absolute;
-    left: 325px;
+    left: 363px;
     top: 145px;
  }
 
@@ -147,4 +147,34 @@
     top: 0px;
     rotate: -45deg;
     height: 300px;
+ }
+
+ #portfolio .left-side .showcase-btn{
+   display: flex;
+   justify-content: flex-start;
+   align-items: left;
+   gap: 20px;
+   margin-top: 15px;
+ }
+
+ #portfolio .left-side .showcase-btn .btn-showcase a,
+ #portfolio .left-side .showcase-btn .btn-getintouch a{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 45px;
+   width: 175px;
+   font-size: 14px;
+   font-weight: 500;
+ }
+
+ #portfolio .left-side .icons{
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   gap: 15px;
+ }
+
+ #portfolio .left-side .icons i{
+   font-size: 15px;
  }
