@@ -386,6 +386,25 @@
    margin-top: 40px;
    gap: 200px;
 }
+
+#contact .contact-body .left-side h6{
+   font-weight: 600;
+}
+
+#contact .contact-body .left-side p span{
+   font-weight: 500;
+}
+
+#contact .contact-body .right-side{
+   padding: 40px;
+   border: 2px solid #fafafa;
+   border-radius: 10px;
+}
+
+#contact .right-side form button{
+   font-size: 14px;
+   font-weight: 500;
+}
 footer {
    display: flex;
    justify-content: center;
