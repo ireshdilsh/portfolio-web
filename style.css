@@ -356,6 +356,14 @@
    margin-top: 10px;
 }
 
+#showcases .project-cards{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 40px;
+   gap: 25px;
+}
+
 #contact{
    display: flex;
    justify-content: center;
