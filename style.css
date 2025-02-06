@@ -372,3 +372,29 @@
 #contact .title h3 span{
    color: #6366f1;
 }
+
+#contact .discription p{
+   font-size: 14px;
+   text-align: center;
+   margin-top: 15px;
+}
+
+footer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #333;
+   color: #fcfcfc;
+   padding: 22px 0px 0px 0px;
+   height: 25px;
+}
+
+footer p,
+footer p span{
+   font-size: 11px;
+}
+
+
+footer p span{
+   font-weight: 700;
+}
