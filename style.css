@@ -180,9 +180,9 @@
    display: flex;
    justify-content: center;
    align-items: center;
+   flex-direction: column;
    margin-top: 120px;
    padding: 80px 140px;
-   flex-direction: column;
    background-color: #6365f107;
  }
 
@@ -330,4 +330,28 @@
    margin-top: 40px;
    text-align: justify;
    font-size: 14px;
+}
+
+#showcases{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-top: 120px;
+   padding: 80px 140px;
+   background-color: #6365f107;
+}
+
+#showcases .title h3 ,#showcases .title h3 span{
+   font-weight: 600;
+}
+
+#showcases .title h3 span{
+   color: #6366f1;
+}
+
+#showcases .discription p{
+   font-size: 14px;
+   text-align: center;
+   margin-top: 10px;
 }
