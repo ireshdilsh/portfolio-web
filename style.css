@@ -183,7 +183,7 @@
    margin-top: 120px;
    padding: 80px 140px;
    flex-direction: column;
-   background-color: #6365f10a;
+   background-color: #6365f107;
  }
 
  #aboutme .title h3,
@@ -230,4 +230,104 @@
 
 #aboutme .body-aboutme .icons i{
    font-size: 16px;
+}
+
+#expertise{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 120px;
+   padding: 0px 140px;
+   flex-direction: column;
+}
+
+#expertise .title h3,
+#expertise .title h3 span{
+   font-weight: 600;
+}
+
+#expertise .title h3 span{
+   color: #6366f1;
+}
+
+#expertise .discription p{
+   font-size: 14px;
+   text-align: center;
+   margin-top: 10px;
+}
+
+#expertise .skill-cards{
+   margin-top: 10px;
+}
+
+#expertise .skill-cards .set-1,
+#expertise .skill-cards .set-2,
+#expertise .skill-cards .set-3,
+#expertise .skill-cards .set-4,
+#expertise .skill-cards .set-5,
+#expertise .skill-cards .set-6,
+#expertise .skill-cards .set-7{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 40px;
+}
+
+#expertise .skill-cards .set-1 .card-1,#expertise .skill-cards .set-1 .card-2,
+#expertise .skill-cards .set-2 .card-1,#expertise .skill-cards .set-2 .card-2,
+#expertise .skill-cards .set-3 .card-1,#expertise .skill-cards .set-3 .card-2,
+#expertise .skill-cards .set-4 .card-1,#expertise .skill-cards .set-4 .card-2,
+#expertise .skill-cards .set-5 .card-1,#expertise .skill-cards .set-5 .card-2,
+#expertise .skill-cards .set-6 .card-1,#expertise .skill-cards .set-6 .card-2,
+#expertise .skill-cards .set-7 .card-1,#expertise .skill-cards .set-7 .card-2{
+   border: 2px solid #fafafa;
+   padding: 40px;
+   border-radius: 10px;
+   width: 600px;
+   height: 240px;
+   margin-top: 40px;
+   cursor: pointer;
+   transition: transform 0.3s ease;
+}
+
+#expertise .skill-cards .set-1 .card-1:hover,
+#expertise .skill-cards .set-1 .card-2:hover,
+#expertise .skill-cards .set-2 .card-1:hover,
+#expertise .skill-cards .set-2 .card-2:hover,
+#expertise .skill-cards .set-3 .card-1:hover,
+#expertise .skill-cards .set-3 .card-2:hover,
+#expertise .skill-cards .set-4 .card-1:hover,
+#expertise .skill-cards .set-4 .card-2:hover,
+#expertise .skill-cards .set-5 .card-1:hover,
+#expertise .skill-cards .set-5 .card-2:hover,
+#expertise .skill-cards .set-6 .card-1:hover,
+#expertise .skill-cards .set-6 .card-2:hover,
+#expertise .skill-cards .set-7 .card-1:hover,
+#expertise .skill-cards .set-7 .card-2:hover {
+  transform: scale(1.1);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+
+#expertise .skill-cards .set-1 .card-1  h6,#expertise .skill-cards .set-1 .card-2  h6,
+#expertise .skill-cards .set-2 .card-1  h6,#expertise .skill-cards .set-2 .card-2  h6,
+#expertise .skill-cards .set-3 .card-1  h6,#expertise .skill-cards .set-3 .card-2  h6,
+#expertise .skill-cards .set-4 .card-1  h6,#expertise .skill-cards .set-4 .card-2  h6,
+#expertise .skill-cards .set-5 .card-1  h6,#expertise .skill-cards .set-5 .card-2  h6,
+#expertise .skill-cards .set-6 .card-1  h6,#expertise .skill-cards .set-6 .card-2  h6,
+#expertise .skill-cards .set-7 .card-1  h6,#expertise .skill-cards .set-7 .card-2  h6{
+   font-weight: 600;
+}
+
+#expertise .skill-cards .set-1 .card-1 p,#expertise .skill-cards .set-1 .card-2 p,
+#expertise .skill-cards .set-2 .card-1 p,#expertise .skill-cards .set-2 .card-2 p,
+#expertise .skill-cards .set-3 .card-1 p,#expertise .skill-cards .set-3 .card-2 p,
+#expertise .skill-cards .set-4 .card-1 p,#expertise .skill-cards .set-4 .card-2 p,
+#expertise .skill-cards .set-5 .card-1 p,#expertise .skill-cards .set-5 .card-2 p,
+#expertise .skill-cards .set-6 .card-1 p,#expertise .skill-cards .set-6 .card-2 p,
+#expertise .skill-cards .set-7 .card-1 p,#expertise .skill-cards .set-7 .card-2 p{
+   margin-top: 40px;
+   text-align: justify;
+   font-size: 14px;
 }
