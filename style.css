@@ -355,3 +355,20 @@
    text-align: center;
    margin-top: 10px;
 }
+
+#contact{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 100px;
+   padding: 0px 140px;
+   flex-direction: column;
+}
+
+#contact .title h3,#contact .title h3, span{
+   font-weight: 600;
+}
+
+#contact .title h3 span{
+   color: #6366f1;
+}
