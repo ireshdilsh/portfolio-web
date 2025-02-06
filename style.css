@@ -379,6 +379,13 @@
    margin-top: 15px;
 }
 
+#contact .contact-body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 40px;
+   gap: 200px;
+}
 footer {
    display: flex;
    justify-content: center;
