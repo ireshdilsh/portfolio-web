@@ -101,7 +101,8 @@ nav .icns .twitter i {
   justify-content: left;
   align-items: flex-start;
   flex-direction: column;
-  margin: 50px 250px;
+  margin-top: 50px;
+  padding: 0px 250px;
 }
 
 #home .title p,
@@ -123,7 +124,7 @@ nav .icns .twitter i {
 
 #home .btns {
   display: flex;
-  gap: 25px;
+  gap: 20px;
   margin-top: 15px;
 }
 
@@ -206,4 +207,34 @@ nav .icns .twitter i {
   padding: 15px 0 0 0;
   font-size: 18px;
   font-weight: 500;
+}
+
+#aboutme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+  padding: 0px 250px;
+}
+
+#aboutme h1{
+  font-weight: 600;
+}
+
+#aboutme .body-aboutme{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+#aboutme .body-aboutme img{
+  height: 320px;
+}
+
+#aboutme .body-aboutme p{
+  text-align: justify;
+  margin-top: 50px;
+  font-size: 15px;
 }
