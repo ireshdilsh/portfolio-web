@@ -136,15 +136,24 @@ nav .icns .twitter i{
 }
 
 #home .btns .portfolio-btn a{
+    position: relative;
     background: linear-gradient(to right,rgb(69, 104, 220), rgb(222, 81, 232));
     color: transparent;
     background-clip: text;
-    border: 1.8px solid transparent;
-    border-image: linear-gradient(45deg,rgb(69, 104, 220), rgb(222, 81, 232));
-    border-image-slice: 1;
-    height: 120px;
-    border-radius: 10px;  
 }
+
+#home .btns .portfolio-btn a::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 50px; 
+    padding: 1.8px; 
+    background:linear-gradient(to right,rgb(69, 104, 220), rgb(222, 81, 232));
+    mask: 
+      linear-gradient(#000 0 0) content-box, 
+      linear-gradient(#000 0 0);
+    mask-composite: exclude; 
+  }
 
 #home .btns .contact-btn a{
     color: #fcfcfc;
