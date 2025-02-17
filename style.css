@@ -106,7 +106,7 @@ nav .icns .twitter i{
 
 #home .title p, 
 #home .title p span{
-    font-size: 48px;
+    font-size: 52px;
     font-weight: 700;
 }
 
@@ -139,7 +139,11 @@ nav .icns .twitter i{
     background: linear-gradient(to right,rgb(69, 104, 220), rgb(222, 81, 232));
     color: transparent;
     background-clip: text;
-    border-radius: 20px;
+    border: 1.8px solid transparent;
+    border-image: linear-gradient(45deg,rgb(69, 104, 220), rgb(222, 81, 232));
+    border-image-slice: 1;
+    height: 120px;
+    border-radius: 10px;  
 }
 
 #home .btns .contact-btn a{
