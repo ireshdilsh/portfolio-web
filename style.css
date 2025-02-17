@@ -190,3 +190,20 @@ nav .icns .twitter i {
   );
   clip-path: polygon(77% 43%, 100% 43%, 100% 100%, 54% 100%);
 }
+
+.txt-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: #3333330a 0px 8px 24px;
+  margin: 60px 250px;
+  height: 80px;
+}
+
+.txt-card p{
+  padding: 15px 0 0 0;
+  font-size: 18px;
+  font-weight: 500;
+}
