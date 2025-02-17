@@ -82,6 +82,7 @@ nav .icns .twitter{
     height: 45px;
     width: 45px;
     box-shadow: 0.25px 0.25px 10px #3333330a;
+    background-color: #fff;
     border-radius: 100%;
 }
 
@@ -148,18 +149,24 @@ nav .icns .twitter i{
     box-shadow: 0px 1px 15px rgba(69, 104, 220, 0.529);
 }
 
-/* first clip path cclors -> #4b6cb7 | #B06AB3 */
-/* scond clip path colors -> #4568DC | #B06AB3*/
+.clip-path-1{
+    z-index: -1;
+    position: absolute;
+    left: 935px;
+    top: 0;
+    height: 500px;
+    width: 600px;
+    background: linear-gradient(to top, rgba(0, 0, 255, 0.71), rgba(0, 0, 255, 0.71), rgba(223, 81, 232, 0.22));
+    clip-path: polygon(65% 0, 100% 0, 73% 100%, 0 100%);
+}
 
-/*
-
-    clip-path: polygon(50% 50%, 100% 0%, 70% 100%, 0% 100%);
-    background: linear-gradient(to top, rgba(0, 0, 255, 0.71),rgba(0, 0, 255, 0.71), rgba(223, 81, 232, 0.22), rgba(223, 81, 232, 0.22));
-
-*/
-/*clippath-2*/
-/*
- background: linear-gradient(to top, rgba(69, 104, 220, 0.72), rgba(223, 81, 232, 0.37), rgba(223, 81, 232, 0.37));
-    clip-path: polygon(75% 43%, 100% 43%,100% 100%,54% 100%);
-*/
+.clip-path-2{
+    position: absolute;
+    left: 1130px;
+    top: 80px;
+    height: 500px;
+    width: 400px;
+    background: linear-gradient(to top, rgba(69, 104, 220, 0.72), rgba(223, 81, 232, 0.37), rgba(223, 81, 232, 0.37));
+    clip-path: polygon(77% 43%, 100% 43%,100% 100%,54% 100%);
+}
 
