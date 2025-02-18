@@ -443,3 +443,49 @@ nav .icns .twitter i {
   padding: 30px;
   width: 380px;
 }
+
+#contact .cnt-body .right .email-field,
+#contact .cnt-body .right .msg-field{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+#contact .cnt-body .right .email-field input{
+  height: 45px;
+  width: 320px;
+  outline: none;
+  padding: 10px 15px;
+  border: 1.8px solid #fafafa;
+  border-radius: 8px;
+  font-size: 15px;
+}
+#contact .cnt-body .right .msg-field textarea{
+  height: 100px;
+  width: 320px;
+  outline: none;
+  padding: 10px 15px;
+  border: 1.8px solid #fafafa;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+#contact .cnt-body .right .email-field label,
+#contact .cnt-body .right .msg-field label{
+  font-size: 15px;
+}
+
+#contact .cnt-body .right .send-btn{
+  margin-top: 20px;
+}
+
+#contact .cnt-body .right .send-btn button{
+  color: #fcfcfc;
+  outline: none;
+  border: none;
+  background-color:  rgba(40, 57, 96, 0.814);
+  padding: 12px 25px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 8px;
+}
