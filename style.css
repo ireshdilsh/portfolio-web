@@ -522,3 +522,12 @@ nav .icns .twitter i {
   );
   clip-path: polygon(65% 0, 100% 0, 73% 100%, 0 100%);
 }
+
+footer{
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 600;
+}
