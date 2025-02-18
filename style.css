@@ -375,3 +375,60 @@ nav .icns .twitter i {
   font-size: 15px;
   text-align: center;
 }
+
+#contact .cnt-body{
+  display: flex;
+  margin-top: 30px;
+  gap: 100px;
+}
+
+#contact .cnt-body .left{
+  width: 350px;
+}
+
+#contact .cnt-body .left img{
+  height: 60px;  
+}
+
+#contact .cnt-body .left p{
+  text-align: justify;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+#contact .cnt-body .left .icons{
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+
+#contact .cnt-body .left .icons .facebook,
+#contact .cnt-body .left .icons .instagram,
+#contact .cnt-body .left .icons .linkedin,
+#contact .cnt-body .left .icons .twitter {
+  position: relative;
+  height: 45px;
+  width: 45px;
+  box-shadow: 0.25px 0.25px 10px #3333330a;
+  background-color: #fff;
+  border-radius: 100%;
+}
+
+#contact .cnt-body .left .icons .facebook i,
+#contact .cnt-body .left .icons .instagram i,
+#contact .cnt-body .left .icons .linkedin i,
+#contact .cnt-body .left .icons .twitter i {
+  position: absolute;
+  left: calc(30px / 2);
+  top: calc(25px / 2);
+  font-size: 17px;
+}
+
+#contact .cnt-body .middle{
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  flex-direction: column;
+}
