@@ -364,7 +364,6 @@ nav .icns .twitter i {
   flex-direction: column;
   margin-top: 120px;
   padding: 0px 250px;
-  background-color: #fff;
 }
 
 #contact h1{
@@ -378,8 +377,10 @@ nav .icns .twitter i {
 
 #contact .cnt-body{
   display: flex;
-  margin-top: 30px;
+  margin-top: 50px;
   gap: 100px;
+  background-color: #fff;
+  border-radius: 0 8px 8px 0;
 }
 
 #contact .cnt-body .left{
@@ -448,7 +449,7 @@ nav .icns .twitter i {
 #contact .cnt-body .right .msg-field{
   display: flex;
   flex-direction: column;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 #contact .cnt-body .right .email-field input{
@@ -461,7 +462,7 @@ nav .icns .twitter i {
   font-size: 15px;
 }
 #contact .cnt-body .right .msg-field textarea{
-  height: 100px;
+  height: 120px;
   width: 320px;
   outline: none;
   padding: 10px 15px;
@@ -476,7 +477,7 @@ nav .icns .twitter i {
 }
 
 #contact .cnt-body .right .send-btn{
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
 #contact .cnt-body .right .send-btn button{
@@ -504,4 +505,20 @@ nav .icns .twitter i {
     rgba(223, 81, 232, 0.37)
   );
   clip-path: polygon(77% 43%, 100% 43%, 100% 100%, 54% 100%);
+}
+
+.clip-path-4 {
+  z-index: -1;
+  position: absolute;
+  left: 935px;
+  top: 3167px;
+  height: 500px;
+  width: 600px;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 255, 0.71),
+    rgba(0, 0, 255, 0.71),
+    rgba(223, 81, 232, 0.22)
+  );
+  clip-path: polygon(65% 0, 100% 0, 73% 100%, 0 100%);
 }
