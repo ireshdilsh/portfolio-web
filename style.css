@@ -432,3 +432,14 @@ nav .icns .twitter i {
   align-items: flex-start;
   flex-direction: column;
 }
+
+#contact .cnt-body .right{
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  flex-direction: column;
+  border: 1.5px solid #fafafa;
+  border-radius: 8px;
+  padding: 30px;
+  width: 380px;
+}
