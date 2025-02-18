@@ -256,3 +256,24 @@ nav .icns .twitter i {
   text-align: justify;
   font-size: 15px;
 }
+
+#skills .cards{
+  margin-top: 20px;
+}
+
+#skills .cards .card-1,
+#skills .cards .card-2,
+#skills .cards .card-3,
+#skills .cards .card-4,
+#skills .cards .card-5,
+#skills .cards .card-6,
+#skills .cards .card-7{
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 30px 50px;
+  border: 1.8px solid #fafafa;
+  margin-top: 10px;
+  border-radius: 8px;
+}
