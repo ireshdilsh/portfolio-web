@@ -277,3 +277,16 @@ nav .icns .twitter i {
   margin-top: 10px;
   border-radius: 8px;
 }
+
+
+#skills .cards .card-1:hover,
+#skills .cards .card-2:hover,
+#skills .cards .card-3:hover,
+#skills .cards .card-4:hover,
+#skills .cards .card-5:hover,
+#skills .cards .card-6:hover,
+#skills .cards .card-7:hover{
+  transition: 0.4s;
+  transform: scale(1.12);
+  cursor: pointer;
+}
