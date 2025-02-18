@@ -489,3 +489,19 @@ nav .icns .twitter i {
   font-weight: 500;
   border-radius: 8px;
 }
+
+.clip-path-3 {
+  z-index: -1;
+  position: absolute;
+  left: 1130px;
+  top: 3250px;
+  height: 500px;
+  width: 400px;
+  background: linear-gradient(
+    to top,
+    rgba(69, 104, 220, 0.72),
+    rgba(223, 81, 232, 0.37),
+    rgba(223, 81, 232, 0.37)
+  );
+  clip-path: polygon(77% 43%, 100% 43%, 100% 100%, 54% 100%);
+}
