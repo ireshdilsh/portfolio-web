@@ -429,6 +429,18 @@ nav .icns .twitter i {
   border-radius: 100%;
 }
 
+
+#contact .cnt-body .left .icons .facebook:hover,
+#contact .cnt-body .left .icons .instagram:hover,
+#contact .cnt-body .left .icons .linkedin:hover,
+#contact .cnt-body .left .icons .twitter:hover{
+  cursor: pointer;
+  background-color:  rgba(40, 57, 96, 0.814);
+  & i{
+    color: #fcfcfc;
+  }
+}
+
 #contact .cnt-body .left .icons .facebook i,
 #contact .cnt-body .left .icons .instagram i,
 #contact .cnt-body .left .icons .linkedin i,
