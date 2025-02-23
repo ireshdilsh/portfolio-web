@@ -299,6 +299,7 @@ nav .icns .twitter i {
   border: 1.8px solid #fafafa;
   margin-top: 10px;
   border-radius: 8px;
+  position: relative;
 }
 
 
@@ -586,4 +587,26 @@ footer{
     rgba(0, 0, 255, 0.71),
     rgb(222, 81, 232)
   ); 
+}
+
+
+#skills .cards .card-1 .color-bar,
+#skills .cards .card-2 .color-bar,
+#skills .cards .card-3 .color-bar,
+#skills .cards .card-4 .color-bar,
+#skills .cards .card-5 .color-bar,
+#skills .cards .card-6 .color-bar,
+#skills .cards .card-7 .color-bar{
+  height: 8px;
+  width: 14.1%;
+  position: absolute;
+  top: 62px;
+  left: -64px;
+  border-radius: 0 0 8px 8px;
+  background: linear-gradient(
+    45deg,
+    rgba(0, 0, 255, 0.71),
+    rgb(222, 81, 232)
+  ); 
+  rotate: 90deg;
 }
