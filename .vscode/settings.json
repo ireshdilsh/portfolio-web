@@ -2,5 +2,6 @@
     "html-to-css-autocompletion.triggerCharacters": false,
     "html-to-css-autocompletion.getSelectorsFromFileTypes": [
         "html"
-    ]
+    ],
+    "liveServer.settings.port": 5501
 }
