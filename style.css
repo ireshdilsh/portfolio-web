@@ -7,7 +7,7 @@
   color: rgba(40, 57, 96, 0.814);
 }
 
-body{
+body {
   overflow-x: hidden;
 }
 
@@ -98,14 +98,13 @@ nav .icns .twitter {
   border-radius: 100%;
 }
 
-
 nav .icns .facebook:hover,
 nav .icns .instagram:hover,
 nav .icns .linkedin:hover,
-nav .icns .twitter:hover{
+nav .icns .twitter:hover {
   cursor: pointer;
   background-color: rgba(40, 57, 96, 0.814);
-  & i{
+  & i {
     color: #fcfcfc;
   }
 }
@@ -216,7 +215,7 @@ nav .icns .twitter i {
   clip-path: polygon(77% 43%, 100% 43%, 100% 100%, 54% 100%);
 }
 
-.txt-card{
+.txt-card {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -227,7 +226,7 @@ nav .icns .twitter i {
   height: 80px;
 }
 
-.txt-card p{
+.txt-card p {
   padding: 15px 30px 0 30px;
   font-size: 18px;
   font-weight: 500;
@@ -242,22 +241,22 @@ nav .icns .twitter i {
   padding: 0 250px;
 }
 
-#aboutme h1{
+#aboutme h1 {
   font-weight: 600;
 }
 
-#aboutme .body-aboutme{
+#aboutme .body-aboutme {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 100px;
 }
 
-#aboutme .body-aboutme img{
+#aboutme .body-aboutme img {
   height: 320px;
 }
 
-#aboutme .body-aboutme p{
+#aboutme .body-aboutme p {
   text-align: justify;
   margin-top: 50px;
   font-size: 15px;
@@ -272,16 +271,16 @@ nav .icns .twitter i {
   padding: 0px 250px;
 }
 
-#skills h1{
+#skills h1 {
   font-weight: 600;
 }
 
-#skills p{
+#skills p {
   text-align: justify;
   font-size: 15px;
 }
 
-#skills .cards{
+#skills .cards {
   margin-top: 20px;
 }
 
@@ -291,7 +290,7 @@ nav .icns .twitter i {
 #skills .cards .card-4,
 #skills .cards .card-5,
 #skills .cards .card-6,
-#skills .cards .card-7{
+#skills .cards .card-7 {
   display: flex;
   justify-content: left;
   align-items: flex-start;
@@ -303,14 +302,13 @@ nav .icns .twitter i {
   position: relative;
 }
 
-
 #skills .cards .card-1:hover,
 #skills .cards .card-2:hover,
 #skills .cards .card-3:hover,
 #skills .cards .card-4:hover,
 #skills .cards .card-5:hover,
 #skills .cards .card-6:hover,
-#skills .cards .card-7:hover{
+#skills .cards .card-7:hover {
   transition: 0.4s;
   transform: scale(1.12);
   cursor: pointer;
@@ -325,21 +323,21 @@ nav .icns .twitter i {
   padding: 0px 250px;
 }
 
-#myworks h1{
+#myworks h1 {
   font-weight: 600;
 }
 
-#myworks p{
+#myworks p {
   text-align: justify;
   font-size: 15px;
 }
 
-#myworks .cards{
+#myworks .cards {
   margin-top: 20px;
 }
 
 #myworks .cards .set-1,
-#myworks .cards .set-2{
+#myworks .cards .set-2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -352,7 +350,7 @@ nav .icns .twitter i {
 #myworks .cards .set-1 .card-3,
 #myworks .cards .set-2 .card-1,
 #myworks .cards .set-2 .card-2,
-#myworks .cards .set-2 .card-3{
+#myworks .cards .set-2 .card-3 {
   padding: 30px;
   border: 1.5px solid #fafafa;
   border-radius: 8px;
@@ -361,29 +359,27 @@ nav .icns .twitter i {
   position: relative;
 }
 
-
 #myworks .cards .set-1 .card-1 p,
 #myworks .cards .set-1 .card-2 p,
 #myworks .cards .set-1 .card-3 p,
 #myworks .cards .set-2 .card-1 p,
 #myworks .cards .set-2 .card-2 p,
-#myworks .cards .set-2 .card-3 p{
+#myworks .cards .set-2 .card-3 p {
   margin-top: 20px;
 }
-
 
 #myworks .cards .set-1 .card-1:hover,
 #myworks .cards .set-1 .card-2:hover,
 #myworks .cards .set-1 .card-3:hover,
 #myworks .cards .set-2 .card-1:hover,
 #myworks .cards .set-2 .card-2:hover,
-#myworks .cards .set-2 .card-3:hover{
+#myworks .cards .set-2 .card-3:hover {
   transition: 0.4s;
   transform: scale(1.1);
   cursor: pointer;
 }
 
-#contact{
+#contact {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -392,16 +388,16 @@ nav .icns .twitter i {
   padding: 0px 250px;
 }
 
-#contact h1{
+#contact h1 {
   font-weight: 600;
 }
 
-#contact p{
+#contact p {
   font-size: 15px;
   text-align: center;
 }
 
-#contact .cnt-body{
+#contact .cnt-body {
   display: flex;
   margin-top: 50px;
   gap: 100px;
@@ -409,27 +405,26 @@ nav .icns .twitter i {
   border-radius: 0 8px 8px 0;
 }
 
-#contact .cnt-body .left{
+#contact .cnt-body .left {
   width: 350px;
 }
 
-#contact .cnt-body .left img{
-  height: 60px;  
+#contact .cnt-body .left img {
+  height: 60px;
 }
 
-#contact .cnt-body .left p{
+#contact .cnt-body .left p {
   text-align: justify;
   font-size: 15px;
   margin-top: 20px;
 }
 
-#contact .cnt-body .left .icons{
+#contact .cnt-body .left .icons {
   display: flex;
   justify-content: left;
   align-items: flex-start;
   gap: 10px;
 }
-
 
 #contact .cnt-body .left .icons .facebook,
 #contact .cnt-body .left .icons .instagram,
@@ -443,14 +438,13 @@ nav .icns .twitter i {
   border-radius: 100%;
 }
 
-
 #contact .cnt-body .left .icons .facebook:hover,
 #contact .cnt-body .left .icons .instagram:hover,
 #contact .cnt-body .left .icons .linkedin:hover,
-#contact .cnt-body .left .icons .twitter:hover{
+#contact .cnt-body .left .icons .twitter:hover {
   cursor: pointer;
-  background-color:  rgba(40, 57, 96, 0.814);
-  & i{
+  background-color: rgba(40, 57, 96, 0.814);
+  & i {
     color: #fcfcfc;
   }
 }
@@ -465,14 +459,14 @@ nav .icns .twitter i {
   font-size: 17px;
 }
 
-#contact .cnt-body .middle{
+#contact .cnt-body .middle {
   display: flex;
   justify-content: left;
   align-items: flex-start;
   flex-direction: column;
 }
 
-#contact .cnt-body .right{
+#contact .cnt-body .right {
   display: flex;
   justify-content: left;
   align-items: flex-start;
@@ -484,13 +478,13 @@ nav .icns .twitter i {
 }
 
 #contact .cnt-body .right .email-field,
-#contact .cnt-body .right .msg-field{
+#contact .cnt-body .right .msg-field {
   display: flex;
   flex-direction: column;
   margin-top: 15px;
 }
 
-#contact .cnt-body .right .email-field input{
+#contact .cnt-body .right .email-field input {
   height: 45px;
   width: 320px;
   outline: none;
@@ -500,7 +494,7 @@ nav .icns .twitter i {
   font-size: 15px;
 }
 
-#contact .cnt-body .right .msg-field textarea{
+#contact .cnt-body .right .msg-field textarea {
   height: 120px;
   width: 320px;
   outline: none;
@@ -511,19 +505,19 @@ nav .icns .twitter i {
 }
 
 #contact .cnt-body .right .email-field label,
-#contact .cnt-body .right .msg-field label{
+#contact .cnt-body .right .msg-field label {
   font-size: 15px;
 }
 
-#contact .cnt-body .right .send-btn{
+#contact .cnt-body .right .send-btn {
   margin-top: 25px;
 }
 
-#contact .cnt-body .right .send-btn button{
+#contact .cnt-body .right .send-btn button {
   color: #fcfcfc;
   outline: none;
   border: none;
-  background-color:  rgba(40, 57, 96, 0.814);
+  background-color: rgba(40, 57, 96, 0.814);
   padding: 12px 25px;
   font-size: 15px;
   font-weight: 500;
@@ -562,7 +556,7 @@ nav .icns .twitter i {
   clip-path: polygon(65% 0, 100% 0, 73% 100%, 0 100%);
 }
 
-footer{
+footer {
   margin-top: 120px;
   display: flex;
   justify-content: center;
@@ -576,20 +570,15 @@ footer{
 #myworks .cards .set-1 .card-3 .color-bar,
 #myworks .cards .set-2 .card-1 .color-bar,
 #myworks .cards .set-2 .card-2 .color-bar,
-#myworks .cards .set-2 .card-3 .color-bar{
+#myworks .cards .set-2 .card-3 .color-bar {
   position: absolute;
   top: 0;
   left: 0;
   height: 5px;
   width: 100%;
   border-radius: 8px 8px 0 0;
-  background: linear-gradient(
-    45deg,
-    rgba(0, 0, 255, 0.71),
-    rgb(222, 81, 232)
-  ); 
+  background: linear-gradient(45deg, rgba(0, 0, 255, 0.71), rgb(222, 81, 232));
 }
-
 
 #skills .cards .card-1 .color-bar,
 #skills .cards .card-2 .color-bar,
@@ -597,17 +586,13 @@ footer{
 #skills .cards .card-4 .color-bar,
 #skills .cards .card-5 .color-bar,
 #skills .cards .card-6 .color-bar,
-#skills .cards .card-7 .color-bar{
+#skills .cards .card-7 .color-bar {
   height: 6px;
   width: 14.1%;
   position: absolute;
   top: 62px;
   left: -64px;
   border-radius: 0 0 8px 8px;
-  background: linear-gradient(
-    45deg,
-    rgba(0, 0, 255, 0.71),
-    rgb(222, 81, 232)
-  ); 
+  background: linear-gradient(45deg, rgba(0, 0, 255, 0.71), rgb(222, 81, 232));
   rotate: 90deg;
 }
